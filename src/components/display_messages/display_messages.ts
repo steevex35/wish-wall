@@ -25,7 +25,7 @@ export class display_messages{
         this.allMessages.push(data);
         //this.all10Messages.push(data);
 
-        if (this.allMessages.length > 9){
+        if (this.allMessages.length > 19){
           const numberOfLastMessages = (this.allMessages.length % 10)+1;
           this.all10Messages = this.allMessages.slice((this.allMessages.length-numberOfLastMessages),(this.allMessages.length));
         }else{

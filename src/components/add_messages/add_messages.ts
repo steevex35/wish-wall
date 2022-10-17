@@ -11,11 +11,9 @@ export class AddMessages{
 
   constructor(private router:Router){
     this.displayFrom =false;
-    console.log(this.displayFrom);
+    //console.log(this.displayFrom);
     //console.log(this.messageSent);
   }
-
-
    clickStart(){
     this.displayFrom=true;
     //console.log(this.displayFrom);

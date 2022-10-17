@@ -50,12 +50,13 @@ body {
 
 .newMessage { 
   background: gold;
-  width: 349px; 
-  height: 349px;
+  width: 263px; 
+  height: 263px;
   /*border-radius: 50%;*/
   display: flex; /* or inline-flex */
   overflow-wrap:break-word;
   align-items: center; 
+  font-size: 14pt!important;
   justify-content: center;
   background: url(../../assets/img/2.png);
   background-repeat: no-repeat;
@@ -63,16 +64,15 @@ body {
 
 .oldMessage { 
   background: gold;
-  width: 214px; 
-  height: 214px;
+  width: 202px; 
+  height: 203px;
   /*border-radius: 50%;*/
   display: flex; /* or inline-flex */
   align-items: center; 
   justify-content: center;
   overflow-wrap:break-word;
-  font-size: 14pt!important;
-  color: black!important;
-  background: url(../../assets/img/4.png);
+  font-size: 10pt!important;
+  background: url(../../assets/img/3.png);
   background-repeat: no-repeat;
 }
 
